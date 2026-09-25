@@ -141,3 +141,7 @@ agent-service/CLAUDE.md
 
 # Ignoring local Claude Code artifacts (settings, worktrees, scratch)
 .claude/
+
+# bench harness outputs (results/logs are per-run; baseline.json is committed)
+bench/results/
+bench/logs/

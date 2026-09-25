@@ -1,0 +1,61 @@
+{
+ "meta": {
+  "git_sha": "70bd3b3caef5",
+  "kind": "jvm-modules",
+  "machinetime": "20260925T020447Z"
+ },
+ "modules": [
+  {
+   "module": "workflow-core",
+   "sbt_project": "WorkflowCore",
+   "dir": "common/workflow-core",
+   "wall_s": 121.508,
+   "sbt_total_s": 111.0,
+   "scalatest_run_ms": 105000.0,
+   "tests_run": 813,
+   "suites": 53,
+   "failed": 0,
+   "per_test_lines": 800,
+   "per_test_file": "/home/fcaro/Documents/code/texera/feat-perf-bench-harness/bench/logs/20260925T020447Z-workflow-core-tests.txt"
+  },
+  {
+   "module": "workflow-operator",
+   "sbt_project": "WorkflowOperator",
+   "dir": "common/workflow-operator",
+   "wall_s": 54.358,
+   "sbt_total_s": 44.0,
+   "scalatest_run_ms": 38593.0,
+   "tests_run": 2568,
+   "suites": 293,
+   "failed": 0,
+   "per_test_lines": 2567,
+   "per_test_file": "/home/fcaro/Documents/code/texera/feat-perf-bench-harness/bench/logs/20260925T020447Z-workflow-operator-tests.txt"
+  },
+  {
+   "module": "workflow-compiler",
+   "sbt_project": "WorkflowCompiler",
+   "dir": "common/workflow-compiler",
+   "wall_s": 16.576,
+   "sbt_total_s": 7.0,
+   "scalatest_run_ms": 1851.0,
+   "tests_run": 62,
+   "suites": 3,
+   "failed": 0,
+   "per_test_lines": 62,
+   "per_test_file": "/home/fcaro/Documents/code/texera/feat-perf-bench-harness/bench/logs/20260925T020447Z-workflow-compiler-tests.txt"
+  },
+  {
+   "module": "dao",
+   "sbt_project": "DAO",
+   "dir": "common/dao",
+   "wall_s": 18.681,
+   "sbt_total_s": 8.0,
+   "scalatest_run_ms": 3879.0,
+   "tests_run": 30,
+   "suites": 3,
+   "failed": 0,
+   "per_test_lines": 30,
+   "per_test_file": "/home/fcaro/Documents/code/texera/feat-perf-bench-harness/bench/logs/20260925T020447Z-dao-tests.txt"
+  }
+ ]
+}
