@@ -252,6 +252,17 @@ This product includes icons from Google's Material Symbols:
   Source: https://github.com/google/material-design-icons
   License: Apache License 2.0 (this LICENSE file)
 
+This product includes the logos of other Apache Software Foundation projects,
+used as the icons of the operators that read from them:
+  - frontend/src/assets/operator_images/ArrowSource.png (Apache Arrow)
+  - frontend/src/assets/operator_images/AsterixDBSource.png (Apache AsterixDB)
+  Copyright (c) The Apache Software Foundation
+  Source: https://arrow.apache.org
+          https://asterixdb.apache.org
+  License: Apache License 2.0 (this LICENSE file)
+  Note: Apache Arrow, Apache AsterixDB and their logos are trademarks of The
+        Apache Software Foundation, used here to identify the projects.
+
 This product includes the ORCID iD icon from ORCID, Inc.:
   - frontend/src/assets/logos/ORCID-iD_icon_24x24.png
   Source: https://info.orcid.org/brand-guidelines/

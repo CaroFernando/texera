@@ -230,6 +230,11 @@ Third-party assets:
     frontend/src/assets/notebook_migration_tool/python_file_diagram.png
     frontend/src/assets/notebook_migration_tool/python_folder_diagram.png
     https://github.com/google/material-design-icons
+  - Apache Arrow and Apache AsterixDB logos (The Apache Software Foundation)
+    frontend/src/assets/operator_images/ArrowSource.png
+    frontend/src/assets/operator_images/AsterixDBSource.png
+    https://arrow.apache.org
+    https://asterixdb.apache.org
 
 --------------------------------------------------------------------------------
 Dependencies under the MIT License
