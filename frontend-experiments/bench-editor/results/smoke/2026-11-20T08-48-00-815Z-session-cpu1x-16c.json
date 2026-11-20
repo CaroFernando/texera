@@ -1,0 +1,757 @@
+{
+  "chrome": "155.0.8059.84",
+  "url": "http://localhost:4180/?sizes=300&reps=1&autostart=1&mode=session&seconds=12",
+  "mode": "session",
+  "cpuThrottle": 1,
+  "cores": 16,
+  "done": true,
+  "rows": [
+    {
+      "n": 300,
+      "label": "JointJS (default)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 300,
+          "mountMs": 99,
+          "seconds": 12,
+          "frames": {
+            "fps": 58,
+            "avgMs": 17.2,
+            "p95Ms": 16.7,
+            "maxMs": 66.7,
+            "longFrames": 1
+          },
+          "dragFrames": {
+            "fps": 58.3,
+            "avgMs": 17.2,
+            "p95Ms": 16.7,
+            "maxMs": 50,
+            "longFrames": 0
+          },
+          "blockingMs": 139,
+          "latency": {
+            "local": {
+              "count": 234,
+              "p50": 16,
+              "p95": 16,
+              "max": 17
+            },
+            "move": {
+              "count": 416,
+              "p50": 8,
+              "p95": 15,
+              "max": 16
+            },
+            "add": {
+              "count": 1,
+              "p50": 15,
+              "p95": 15,
+              "max": 15
+            },
+            "remove": {
+              "count": 1,
+              "p50": 14,
+              "p95": 14,
+              "max": 14
+            },
+            "stats": {
+              "count": 12,
+              "p50": 11,
+              "p95": 15,
+              "max": 15
+            }
+          },
+          "skippedMoves": 34,
+          "skippedLocal": 0,
+          "messages": 478,
+          "applyMs": 96,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.2,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 5.3,
+              "domMB": 1.1
+            },
+            "afterSession": {
+              "jsMB": 6.6,
+              "domMB": 1.1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "n": 300,
+      "label": "JointJS (optimized)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 300,
+          "mountMs": 36,
+          "seconds": 12,
+          "frames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "dragFrames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "blockingMs": 0,
+          "latency": {
+            "local": {
+              "count": 241,
+              "p50": 16,
+              "p95": 17,
+              "max": 17
+            },
+            "move": {
+              "count": 120,
+              "p50": 8,
+              "p95": 15,
+              "max": 31
+            },
+            "add": {
+              "count": 1,
+              "p50": 20,
+              "p95": 20,
+              "max": 20
+            },
+            "remove": {
+              "count": 1,
+              "p50": 19,
+              "p95": 19,
+              "max": 19
+            },
+            "stats": {
+              "count": 9,
+              "p50": 33,
+              "p95": 1282,
+              "max": 1282
+            }
+          },
+          "skippedMoves": 330,
+          "skippedLocal": 0,
+          "messages": 478,
+          "applyMs": 27,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.4,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 5.5,
+              "domMB": 0.3
+            },
+            "afterSession": {
+              "jsMB": 6.2,
+              "domMB": 0.3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "n": 300,
+      "label": "React Flow (default)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 300,
+          "mountMs": 50,
+          "seconds": 12,
+          "frames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "dragFrames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "blockingMs": 0,
+          "latency": {
+            "local": {
+              "count": 240,
+              "p50": 17,
+              "p95": 17,
+              "max": 17
+            },
+            "move": {
+              "count": 426,
+              "p50": 9,
+              "p95": 15,
+              "max": 17
+            },
+            "add": {
+              "count": 1,
+              "p50": 6,
+              "p95": 6,
+              "max": 6
+            },
+            "remove": {
+              "count": 1,
+              "p50": 5,
+              "p95": 5,
+              "max": 5
+            },
+            "stats": {
+              "count": 12,
+              "p50": 10,
+              "p95": 18,
+              "max": 18
+            }
+          },
+          "skippedMoves": 24,
+          "skippedLocal": 1,
+          "messages": 478,
+          "applyMs": 23,
+          "memory": {
+            "baseline": {
+              "jsMB": 0.7,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 10.1,
+              "domMB": 0.6
+            },
+            "afterSession": {
+              "jsMB": 11.9,
+              "domMB": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "n": 300,
+      "label": "React Flow (optimized)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 300,
+          "mountMs": 33,
+          "seconds": 12,
+          "frames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "dragFrames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "blockingMs": 0,
+          "latency": {
+            "local": {
+              "count": 241,
+              "p50": 17,
+              "p95": 17,
+              "max": 17
+            },
+            "move": {
+              "count": 427,
+              "p50": 8,
+              "p95": 15,
+              "max": 16
+            },
+            "add": {
+              "count": 1,
+              "p50": 6,
+              "p95": 6,
+              "max": 6
+            },
+            "remove": {
+              "count": 1,
+              "p50": 5,
+              "p95": 5,
+              "max": 5
+            },
+            "stats": {
+              "count": 12,
+              "p50": 15,
+              "p95": 19,
+              "max": 19
+            }
+          },
+          "skippedMoves": 23,
+          "skippedLocal": 0,
+          "messages": 478,
+          "applyMs": 21,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.1,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 4.1,
+              "domMB": 0.1
+            },
+            "afterSession": {
+              "jsMB": 5.9,
+              "domMB": 0.1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "n": 300,
+      "label": "Svelte Flow (default)",
+      "runs": [
+        {
+          "lib": "svelte",
+          "optimized": false,
+          "nodes": 300,
+          "mountMs": 85,
+          "seconds": 12,
+          "frames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "dragFrames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "blockingMs": 0,
+          "latency": {
+            "local": {
+              "count": 241,
+              "p50": 16,
+              "p95": 17,
+              "max": 17
+            },
+            "move": {
+              "count": 431,
+              "p50": 8,
+              "p95": 15,
+              "max": 16
+            },
+            "add": {
+              "count": 1,
+              "p50": 12,
+              "p95": 12,
+              "max": 12
+            },
+            "remove": {
+              "count": 1,
+              "p50": 11,
+              "p95": 11,
+              "max": 11
+            },
+            "stats": {
+              "count": 12,
+              "p50": 8,
+              "p95": 16,
+              "max": 16
+            }
+          },
+          "skippedMoves": 19,
+          "skippedLocal": 0,
+          "messages": 478,
+          "applyMs": 22,
+          "memory": {
+            "baseline": {
+              "jsMB": 0.7,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 18.6,
+              "domMB": 1
+            },
+            "afterSession": {
+              "jsMB": 19.3,
+              "domMB": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "n": 300,
+      "label": "Svelte Flow (optimized)",
+      "runs": [
+        {
+          "lib": "svelte",
+          "optimized": true,
+          "nodes": 300,
+          "mountMs": 46,
+          "seconds": 12,
+          "frames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "dragFrames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "blockingMs": 0,
+          "latency": {
+            "local": {
+              "count": 241,
+              "p50": 17,
+              "p95": 17,
+              "max": 17
+            },
+            "move": {
+              "count": 430,
+              "p50": 8,
+              "p95": 15,
+              "max": 16
+            },
+            "add": {
+              "count": 1,
+              "p50": 9,
+              "p95": 9,
+              "max": 9
+            },
+            "remove": {
+              "count": 1,
+              "p50": 8,
+              "p95": 8,
+              "max": 8
+            },
+            "stats": {
+              "count": 12,
+              "p50": 5,
+              "p95": 14,
+              "max": 14
+            }
+          },
+          "skippedMoves": 20,
+          "skippedLocal": 0,
+          "messages": 478,
+          "applyMs": 21,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.1,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 4.6,
+              "domMB": 0.2
+            },
+            "afterSession": {
+              "jsMB": 7,
+              "domMB": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "n": 300,
+      "label": "solid-flow (default)",
+      "runs": [
+        {
+          "lib": "solid",
+          "optimized": false,
+          "nodes": 300,
+          "mountMs": 88,
+          "seconds": 12,
+          "frames": {
+            "fps": 59.9,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0
+          },
+          "dragFrames": {
+            "fps": 59.8,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0
+          },
+          "blockingMs": 0,
+          "latency": {
+            "local": {
+              "count": 240,
+              "p50": 16,
+              "p95": 16,
+              "max": 16
+            },
+            "move": {
+              "count": 432,
+              "p50": 7,
+              "p95": 15,
+              "max": 16
+            },
+            "add": {
+              "count": 1,
+              "p50": 13,
+              "p95": 13,
+              "max": 13
+            },
+            "remove": {
+              "count": 1,
+              "p50": 11,
+              "p95": 11,
+              "max": 11
+            },
+            "stats": {
+              "count": 12,
+              "p50": 8,
+              "p95": 13,
+              "max": 13
+            }
+          },
+          "skippedMoves": 18,
+          "skippedLocal": 0,
+          "messages": 478,
+          "applyMs": 176,
+          "memory": {
+            "baseline": {
+              "jsMB": 1,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 21.1,
+              "domMB": 0.5
+            },
+            "afterSession": {
+              "jsMB": 22.5,
+              "domMB": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "n": 300,
+      "label": "solid-flow (optimized)",
+      "runs": [
+        {
+          "lib": "solid",
+          "optimized": true,
+          "nodes": 300,
+          "mountMs": 57,
+          "seconds": 12,
+          "frames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "dragFrames": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0
+          },
+          "blockingMs": 0,
+          "latency": {
+            "local": {
+              "count": 241,
+              "p50": 16,
+              "p95": 16,
+              "max": 16
+            },
+            "move": {
+              "count": 432,
+              "p50": 7,
+              "p95": 15,
+              "max": 16
+            },
+            "add": {
+              "count": 1,
+              "p50": 14,
+              "p95": 14,
+              "max": 14
+            },
+            "remove": {
+              "count": 1,
+              "p50": 13,
+              "p95": 13,
+              "max": 13
+            },
+            "stats": {
+              "count": 12,
+              "p50": 10,
+              "p95": 14,
+              "max": 14
+            }
+          },
+          "skippedMoves": 18,
+          "skippedLocal": 0,
+          "messages": 478,
+          "applyMs": 141,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.1,
+              "domMB": 0
+            },
+            "afterLoad": {
+              "jsMB": 15.8,
+              "domMB": 0.3
+            },
+            "afterSession": {
+              "jsMB": 17.5,
+              "domMB": 0.3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "startedAt": "2026-11-20T08:46:19.184Z",
+  "profiles": {
+    "lib=joint&opt=0&n=300": [
+      {
+        "ms": {
+          "Yjs": 27,
+          "Yjs binding (shared)": 11,
+          "Framework": 0,
+          "Canvas library": 406,
+          "App code": 54,
+          "Rendering + browser": 1369,
+          "Garbage collection": 42
+        },
+        "busyMs": 1909,
+        "wallMs": 12035
+      }
+    ],
+    "lib=joint&opt=1&n=300": [
+      {
+        "ms": {
+          "Yjs": 18,
+          "Yjs binding (shared)": 18,
+          "Framework": 0,
+          "Canvas library": 313,
+          "App code": 62,
+          "Rendering + browser": 414,
+          "Garbage collection": 25
+        },
+        "busyMs": 850,
+        "wallMs": 14035
+      }
+    ],
+    "lib=rf&opt=0&n=300": [
+      {
+        "ms": {
+          "Yjs": 26,
+          "Yjs binding (shared)": 10,
+          "Framework": 191,
+          "Canvas library": 107,
+          "App code": 36,
+          "Rendering + browser": 835,
+          "Garbage collection": 26
+        },
+        "busyMs": 1230,
+        "wallMs": 12033
+      }
+    ],
+    "lib=rf&opt=1&n=300": [
+      {
+        "ms": {
+          "Yjs": 20,
+          "Yjs binding (shared)": 12,
+          "Framework": 84,
+          "Canvas library": 111,
+          "App code": 31,
+          "Rendering + browser": 342,
+          "Garbage collection": 13
+        },
+        "busyMs": 612,
+        "wallMs": 12028
+      }
+    ],
+    "lib=svelte&opt=0&n=300": [
+      {
+        "ms": {
+          "Yjs": 20,
+          "Yjs binding (shared)": 8,
+          "Framework": 96,
+          "Canvas library": 59,
+          "App code": 29,
+          "Rendering + browser": 739,
+          "Garbage collection": 28
+        },
+        "busyMs": 979,
+        "wallMs": 12034
+      }
+    ],
+    "lib=svelte&opt=1&n=300": [
+      {
+        "ms": {
+          "Yjs": 19,
+          "Yjs binding (shared)": 14,
+          "Framework": 64,
+          "Canvas library": 59,
+          "App code": 31,
+          "Rendering + browser": 368,
+          "Garbage collection": 15
+        },
+        "busyMs": 570,
+        "wallMs": 12028
+      }
+    ],
+    "lib=solid&opt=0&n=300": [
+      {
+        "ms": {
+          "Yjs": 25,
+          "Yjs binding (shared)": 15,
+          "Framework": 145,
+          "Canvas library": 79,
+          "App code": 30,
+          "Rendering + browser": 773,
+          "Garbage collection": 31
+        },
+        "busyMs": 1099,
+        "wallMs": 12029
+      }
+    ],
+    "lib=solid&opt=1&n=300": [
+      {
+        "ms": {
+          "Yjs": 20,
+          "Yjs binding (shared)": 14,
+          "Framework": 263,
+          "Canvas library": 128,
+          "App code": 37,
+          "Rendering + browser": 572,
+          "Garbage collection": 46
+        },
+        "busyMs": 1079,
+        "wallMs": 12029
+      }
+    ]
+  }
+}

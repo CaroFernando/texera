@@ -1,0 +1,15 @@
+{
+  "name": "frontend-experiments",
+  "private": true,
+  "description": "Landing page migration experiment: the same page in four candidate stacks.",
+  "workspaces": ["shared", "landing-*", "bench-*"],
+  "scripts": {
+    "dev:a": "npm run dev -w landing-a",
+    "dev:b": "npm run dev -w landing-b",
+    "dev:c": "npm run dev -w landing-c",
+    "dev:d": "npm run dev -w landing-d",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "sizes": "node scripts/sizes.mjs"
+  }
+}

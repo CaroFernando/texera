@@ -1,0 +1,34 @@
+{
+  "name": "bench-editor",
+  "private": true,
+  "type": "module",
+  "description": "Workflow editor performance: JointJS 4 vs React Flow, both inside React",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4180 --strictPort",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dschz/solid-flow": "^0.2.6",
+    "@joint/core": "^4.3.4",
+    "@xyflow/react": "^13.0.2",
+    "@xyflow/svelte": "^2.0.2",
+    "react": "^19",
+    "react-dom": "^19",
+    "solid-js": "~1.9.20",
+    "svelte": "^5.58.0",
+    "yjs": "^13.6.33"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6",
+    "playwright-core": "^1.65.1",
+    "typescript": "^7",
+    "vite": "^8",
+    "vite-plugin-solid": "^2.11.17"
+  }
+}

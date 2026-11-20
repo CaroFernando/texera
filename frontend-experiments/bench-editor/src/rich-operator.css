@@ -1,0 +1,31 @@
+/* Texera-like operator (?op=texera) for the xyflow canvases (React, Svelte, Solid): the same
+   elements as the JointJS RichOperator, laid out with CSS. */
+.op-rich {
+  position: relative;
+  width: 180px;
+  height: 64px;
+  background: #fff;
+  border: 2px solid;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.op-rich > * {
+  position: absolute;
+  white-space: nowrap;
+}
+.op-rich .op-icon { left: 8px; top: 8px; width: 24px; height: 24px; }
+.op-rich .op-title { left: 38px; top: 7px; font-size: 13px; color: #262626; }
+.op-rich .op-status { left: 38px; top: 25px; font-size: 11px; color: #8c8c8c; }
+.op-rich .op-state { left: 8px; bottom: 3px; }
+.op-rich .op-workers { right: 8px; bottom: 3px; }
+.op-rich .op-hidden { visibility: hidden; }
+.op-rich .op-editing { left: 50%; top: -24px; }
+.op-rich .op-changed { left: 50%; top: -12px; }
+.op-rich .op-view-result { right: 6px; top: 4px; width: 14px; height: 14px; }
+.op-rich .op-reuse-cache { right: 24px; top: 4px; width: 14px; height: 14px; }
+.op-rich .op-boundary { inset: -6px; border: 1px solid transparent; }
+.op-rich .op-delete { right: -9px; top: -9px; width: 18px; height: 18px; cursor: pointer; }
+.op-rich .op-in-rows { right: calc(100% + 10px); top: 12px; color: #8c8c8c; }
+.op-rich .op-out-rows { left: calc(100% + 10px); top: 12px; color: #8c8c8c; }

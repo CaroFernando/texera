@@ -1,0 +1,31 @@
+{
+  "name": "landing-a",
+  "private": true,
+  "type": "module",
+  "description": "Variant A: React + antd + Tailwind + TanStack Query + React Router",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4171",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@exp/shared": "*",
+    "@ant-design/cssinjs": "~2.1.2",
+    "@ant-design/icons": "^6",
+    "@tanstack/react-query": "^5",
+    "antd": "^6",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-router": "^8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6",
+    "tailwindcss": "^4",
+    "typescript": "^7",
+    "vite": "^8"
+  }
+}

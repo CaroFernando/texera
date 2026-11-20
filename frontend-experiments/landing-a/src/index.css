@@ -1,0 +1,4 @@
+/* antd sits between Tailwind's base reset and its utilities, so utilities can
+   override antd and the reset cannot clobber it (ant.design/docs/react/compatible-style). */
+@layer theme, base, antd, components, utilities;
+@import "tailwindcss";

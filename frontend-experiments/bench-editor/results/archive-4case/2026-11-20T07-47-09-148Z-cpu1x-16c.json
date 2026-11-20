@@ -1,0 +1,3550 @@
+{
+  "chrome": "155.0.8059.84",
+  "url": "http://localhost:4180/?sizes=100,500,1000,2000,5000&reps=3&autostart=1",
+  "cpuThrottle": 1,
+  "cores": 16,
+  "done": true,
+  "rows": [
+    {
+      "n": 100,
+      "label": "JointJS (default)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 36,
+          "mountBlockingMs": 0,
+          "domNodes": 1510,
+          "heapMB": 6,
+          "memory": {
+            "baseline": {
+              "jsMB": 0.8,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 2.3,
+              "domMB": 0.5
+            },
+            "afterScenarios": {
+              "jsMB": 2.9,
+              "domMB": 0.5
+            },
+            "peakHeapMB": 6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 13,
+            "p95Ms": 36,
+            "maxMs": 36,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 28,
+          "mountBlockingMs": 0,
+          "domNodes": 1510,
+          "heapMB": 7.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.8,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 3.7,
+              "domMB": 0.5
+            },
+            "afterScenarios": {
+              "jsMB": 5.6,
+              "domMB": 0.5
+            },
+            "peakHeapMB": 7.8
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 13,
+            "p95Ms": 20,
+            "maxMs": 20,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 32,
+          "mountBlockingMs": 0,
+          "domNodes": 1510,
+          "heapMB": 7.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.6,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 3.9,
+              "domMB": 0.5
+            },
+            "afterScenarios": {
+              "jsMB": 4.4,
+              "domMB": 0.5
+            },
+            "peakHeapMB": 7.8
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 12,
+            "p95Ms": 21,
+            "maxMs": 21,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "label": "JointJS (optimized)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 19,
+          "mountBlockingMs": 0,
+          "domNodes": 553,
+          "heapMB": 6.2,
+          "memory": {
+            "baseline": {
+              "jsMB": 1,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 2.7,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 2.9,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 6.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 20,
+            "maxMs": 20,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 21,
+          "mountBlockingMs": 0,
+          "domNodes": 553,
+          "heapMB": 7.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.1,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 3,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 3.5,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 7.6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 20,
+            "maxMs": 20,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 19,
+          "mountBlockingMs": 0,
+          "domNodes": 553,
+          "heapMB": 7.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.9,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 3.2,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 3.8,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 7.6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 20,
+            "maxMs": 20,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "label": "React Flow (default)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 35,
+          "mountBlockingMs": 0,
+          "domNodes": 1013,
+          "heapMB": 8.9,
+          "memory": {
+            "baseline": {
+              "jsMB": 2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 5.3,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 5.9,
+              "domMB": 0.3
+            },
+            "peakHeapMB": 8.9
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 34,
+          "mountBlockingMs": 0,
+          "domNodes": 1013,
+          "heapMB": 9.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 4.9,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 8.4,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 5.6,
+              "domMB": 0.3
+            },
+            "peakHeapMB": 9.6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 34,
+          "mountBlockingMs": 0,
+          "domNodes": 1013,
+          "heapMB": 9.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 5.2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 8.3,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 8.3,
+              "domMB": 0.3
+            },
+            "peakHeapMB": 9.6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "label": "React Flow (optimized)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 18,
+          "mountBlockingMs": 0,
+          "domNodes": 297,
+          "heapMB": 7.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.4,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 4.1,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 4.4,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 7.5
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 34,
+          "mountBlockingMs": 0,
+          "domNodes": 297,
+          "heapMB": 7.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.9,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 4.2,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 3.7,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 7.8
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 100,
+          "edges": 99,
+          "mountMs": 34,
+          "mountBlockingMs": 0,
+          "domNodes": 297,
+          "heapMB": 7.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.1,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 5.5,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 6.3,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 7.8
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 500,
+      "label": "JointJS (default)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 138,
+          "mountBlockingMs": 87,
+          "domNodes": 7894,
+          "heapMB": 12.3,
+          "memory": {
+            "baseline": {
+              "jsMB": 5,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 7,
+              "domMB": 1.9
+            },
+            "afterScenarios": {
+              "jsMB": 8.3,
+              "domMB": 2
+            },
+            "peakHeapMB": 12.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 90,
+            "p95Ms": 108,
+            "maxMs": 108,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 136,
+          "mountBlockingMs": 85,
+          "domNodes": 7894,
+          "heapMB": 12.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 5.3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 10.4,
+              "domMB": 1.9
+            },
+            "afterScenarios": {
+              "jsMB": 11.2,
+              "domMB": 2
+            },
+            "peakHeapMB": 12.5
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 94,
+            "p95Ms": 110,
+            "maxMs": 110,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 137,
+          "mountBlockingMs": 86,
+          "domNodes": 7894,
+          "heapMB": 12.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.4,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 10.4,
+              "domMB": 1.9
+            },
+            "afterScenarios": {
+              "jsMB": 11.8,
+              "domMB": 2
+            },
+            "peakHeapMB": 12.6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 93,
+            "p95Ms": 106,
+            "maxMs": 106,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 500,
+      "label": "JointJS (optimized)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 41,
+          "mountBlockingMs": 0,
+          "domNodes": 877,
+          "heapMB": 9.4,
+          "memory": {
+            "baseline": {
+              "jsMB": 5.3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 8.2,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 6.9,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 9.9
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 25,
+            "maxMs": 25,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 42,
+          "mountBlockingMs": 0,
+          "domNodes": 877,
+          "heapMB": 9.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 7.6,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 7.8,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 10
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 25,
+            "maxMs": 25,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 40,
+          "mountBlockingMs": 0,
+          "domNodes": 877,
+          "heapMB": 9.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 5.2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 7.4,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 9.4,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 10.1
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 25,
+            "maxMs": 25,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 500,
+      "label": "React Flow (default)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 71,
+          "mountBlockingMs": 0,
+          "domNodes": 5525,
+          "heapMB": 20.9,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 17.1,
+              "domMB": 1
+            },
+            "afterScenarios": {
+              "jsMB": 16.9,
+              "domMB": 1
+            },
+            "peakHeapMB": 20.9
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 19,
+            "maxMs": 19,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 72,
+          "mountBlockingMs": 0,
+          "domNodes": 5525,
+          "heapMB": 21.1,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 16.8,
+              "domMB": 1
+            },
+            "afterScenarios": {
+              "jsMB": 16.8,
+              "domMB": 1
+            },
+            "peakHeapMB": 21.1
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 18,
+            "maxMs": 18,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 68,
+          "mountBlockingMs": 0,
+          "domNodes": 5525,
+          "heapMB": 21.1,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.4,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 17.4,
+              "domMB": 1
+            },
+            "afterScenarios": {
+              "jsMB": 17,
+              "domMB": 1
+            },
+            "peakHeapMB": 21.1
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 19,
+            "maxMs": 19,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 500,
+      "label": "React Flow (optimized)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 40,
+          "mountBlockingMs": 0,
+          "domNodes": 415,
+          "heapMB": 8.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 4.2,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 5,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 8.5
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 40,
+          "mountBlockingMs": 0,
+          "domNodes": 415,
+          "heapMB": 8.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 7.5,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 8.1,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 8.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 500,
+          "edges": 627,
+          "mountMs": 41,
+          "mountBlockingMs": 0,
+          "domNodes": 415,
+          "heapMB": 8.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 5.3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 4.2,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 5.1,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 8.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 1000,
+      "label": "JointJS (default)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 282,
+          "mountBlockingMs": 232,
+          "domNodes": 15874,
+          "heapMB": 17.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.5,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 12.8,
+              "domMB": 3.7
+            },
+            "afterScenarios": {
+              "jsMB": 15.3,
+              "domMB": 3.8
+            },
+            "peakHeapMB": 17.5
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 53.7,
+            "avgMs": 18.6,
+            "p95Ms": 33.3,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 213,
+            "p95Ms": 239,
+            "maxMs": 239,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 284,
+          "mountBlockingMs": 234,
+          "domNodes": 15874,
+          "heapMB": 17.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 16.2,
+              "domMB": 3.7
+            },
+            "afterScenarios": {
+              "jsMB": 16.1,
+              "domMB": 3.8
+            },
+            "peakHeapMB": 17.6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 52.9,
+            "avgMs": 18.9,
+            "p95Ms": 33.3,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 214,
+            "p95Ms": 248,
+            "maxMs": 248,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 284,
+          "mountBlockingMs": 233,
+          "domNodes": 15874,
+          "heapMB": 17.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 3.6,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 12.9,
+              "domMB": 3.7
+            },
+            "afterScenarios": {
+              "jsMB": 13.8,
+              "domMB": 3.8
+            },
+            "peakHeapMB": 17.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 53.7,
+            "avgMs": 18.6,
+            "p95Ms": 33.3,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 219,
+            "p95Ms": 243,
+            "maxMs": 243,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 1000,
+      "label": "JointJS (optimized)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 53,
+          "mountBlockingMs": 0,
+          "domNodes": 877,
+          "heapMB": 11.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.8,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 7.2,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 9.1,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 12.2
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 52.9,
+            "avgMs": 18.9,
+            "p95Ms": 33.3,
+            "maxMs": 50,
+            "longFrames": 0,
+            "blockingMs": 7
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 23,
+            "p95Ms": 32,
+            "maxMs": 32,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 50,
+          "mountBlockingMs": 0,
+          "domNodes": 877,
+          "heapMB": 11.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 7.4,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 11.7,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 12.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 52.2,
+            "avgMs": 19.2,
+            "p95Ms": 33.3,
+            "maxMs": 66.7,
+            "longFrames": 1,
+            "blockingMs": 8
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 23,
+            "p95Ms": 26,
+            "maxMs": 26,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 56,
+          "mountBlockingMs": 0,
+          "domNodes": 877,
+          "heapMB": 11.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 7.2,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 9.2,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 12.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 52.2,
+            "avgMs": 19.2,
+            "p95Ms": 33.3,
+            "maxMs": 66.7,
+            "longFrames": 1,
+            "blockingMs": 12
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 22,
+            "p95Ms": 26,
+            "maxMs": 26,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 1000,
+      "label": "React Flow (default)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 149,
+          "mountBlockingMs": 63,
+          "domNodes": 11165,
+          "heapMB": 34.9,
+          "memory": {
+            "baseline": {
+              "jsMB": 4.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 33.2,
+              "domMB": 1.9
+            },
+            "afterScenarios": {
+              "jsMB": 31.7,
+              "domMB": 1.9
+            },
+            "peakHeapMB": 34.9
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 33,
+            "p95Ms": 39,
+            "maxMs": 39,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 150,
+          "mountBlockingMs": 62,
+          "domNodes": 11165,
+          "heapMB": 35,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.4,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 30.7,
+              "domMB": 1.9
+            },
+            "afterScenarios": {
+              "jsMB": 33.6,
+              "domMB": 1.9
+            },
+            "peakHeapMB": 35
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 35,
+            "p95Ms": 40,
+            "maxMs": 40,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 151,
+          "mountBlockingMs": 63,
+          "domNodes": 11165,
+          "heapMB": 35,
+          "memory": {
+            "baseline": {
+              "jsMB": 5.4,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 32.2,
+              "domMB": 1.9
+            },
+            "afterScenarios": {
+              "jsMB": 31.7,
+              "domMB": 1.9
+            },
+            "peakHeapMB": 35
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 33,
+            "p95Ms": 42,
+            "maxMs": 42,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 1000,
+      "label": "React Flow (optimized)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 70,
+          "mountBlockingMs": 0,
+          "domNodes": 415,
+          "heapMB": 9.2,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.5,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 5.2,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 5.6,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 9.2
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 67,
+          "mountBlockingMs": 0,
+          "domNodes": 415,
+          "heapMB": 9.3,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 5.8,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 5.7,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 9.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 1000,
+          "edges": 1287,
+          "mountMs": 69,
+          "mountBlockingMs": 0,
+          "domNodes": 415,
+          "heapMB": 9.4,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.8,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 6.5,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 8.4,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 9.4
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 2000,
+      "label": "JointJS (default)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 694,
+          "mountBlockingMs": 643,
+          "domNodes": 31834,
+          "heapMB": 29.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.6,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 27.8,
+              "domMB": 7.4
+            },
+            "afterScenarios": {
+              "jsMB": 29.6,
+              "domMB": 7.6
+            },
+            "peakHeapMB": 29.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 23.7,
+            "avgMs": 42.2,
+            "p95Ms": 50,
+            "maxMs": 50,
+            "longFrames": 1,
+            "blockingMs": 6
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 571,
+            "p95Ms": 646,
+            "maxMs": 646,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 715,
+          "mountBlockingMs": 663,
+          "domNodes": 31834,
+          "heapMB": 29.9,
+          "memory": {
+            "baseline": {
+              "jsMB": 4.8,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 26.7,
+              "domMB": 7.4
+            },
+            "afterScenarios": {
+              "jsMB": 28.7,
+              "domMB": 7.6
+            },
+            "peakHeapMB": 29.8
+          },
+          "pan": {
+            "fps": 59.5,
+            "avgMs": 16.8,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 22.9,
+            "avgMs": 43.6,
+            "p95Ms": 50,
+            "maxMs": 66.7,
+            "longFrames": 2,
+            "blockingMs": 15
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 589,
+            "p95Ms": 627,
+            "maxMs": 627,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 715,
+          "mountBlockingMs": 664,
+          "domNodes": 31834,
+          "heapMB": 29.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 4.9,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 25.1,
+              "domMB": 7.4
+            },
+            "afterScenarios": {
+              "jsMB": 28.7,
+              "domMB": 7.6
+            },
+            "peakHeapMB": 29.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 23.8,
+            "avgMs": 41.9,
+            "p95Ms": 50,
+            "maxMs": 50,
+            "longFrames": 4,
+            "blockingMs": 8
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 586,
+            "p95Ms": 625,
+            "maxMs": 625,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 2000,
+      "label": "JointJS (optimized)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 86,
+          "mountBlockingMs": 3,
+          "domNodes": 877,
+          "heapMB": 17.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 13.2,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 15.8,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 18
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 49.3,
+            "avgMs": 20.3,
+            "p95Ms": 50,
+            "maxMs": 66.7,
+            "longFrames": 1,
+            "blockingMs": 19
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 44,
+            "p95Ms": 50,
+            "maxMs": 50,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 86,
+          "mountBlockingMs": 4,
+          "domNodes": 877,
+          "heapMB": 17.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 15.5,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 15.5,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 18
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 48.7,
+            "avgMs": 20.6,
+            "p95Ms": 50,
+            "maxMs": 83.3,
+            "longFrames": 1,
+            "blockingMs": 28
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 45,
+            "p95Ms": 51,
+            "maxMs": 51,
+            "blockingMs": 2
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 83,
+          "mountBlockingMs": 2,
+          "domNodes": 877,
+          "heapMB": 17.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 13.1,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 15.5,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 18.1
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 49.3,
+            "avgMs": 20.3,
+            "p95Ms": 50,
+            "maxMs": 66.7,
+            "longFrames": 2,
+            "blockingMs": 22
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 45,
+            "p95Ms": 56,
+            "maxMs": 56,
+            "blockingMs": 7
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 2000,
+      "label": "React Flow (default)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 301,
+          "mountBlockingMs": 197,
+          "domNodes": 22445,
+          "heapMB": 63,
+          "memory": {
+            "baseline": {
+              "jsMB": 5.6,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 59,
+              "domMB": 3.7
+            },
+            "afterScenarios": {
+              "jsMB": 60.4,
+              "domMB": 3.7
+            },
+            "peakHeapMB": 63
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 72,
+            "p95Ms": 91,
+            "maxMs": 91,
+            "blockingMs": 10
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 313,
+          "mountBlockingMs": 209,
+          "domNodes": 22445,
+          "heapMB": 63,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.9,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 59.2,
+              "domMB": 3.7
+            },
+            "afterScenarios": {
+              "jsMB": 62.9,
+              "domMB": 3.7
+            },
+            "peakHeapMB": 63
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 71,
+            "p95Ms": 82,
+            "maxMs": 82,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 312,
+          "mountBlockingMs": 208,
+          "domNodes": 22445,
+          "heapMB": 63,
+          "memory": {
+            "baseline": {
+              "jsMB": 1.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 58.4,
+              "domMB": 3.7
+            },
+            "afterScenarios": {
+              "jsMB": 60.1,
+              "domMB": 3.7
+            },
+            "peakHeapMB": 63
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 68,
+            "p95Ms": 83,
+            "maxMs": 83,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 2000,
+      "label": "React Flow (optimized)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 138,
+          "mountBlockingMs": 34,
+          "domNodes": 415,
+          "heapMB": 10.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 3.1,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 6.4,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 9.3,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 10.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 58.1,
+            "avgMs": 17.2,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 145,
+          "mountBlockingMs": 41,
+          "domNodes": 415,
+          "heapMB": 10.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.4,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 8,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 7.1,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 10.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 2000,
+          "edges": 2607,
+          "mountMs": 140,
+          "mountBlockingMs": 36,
+          "domNodes": 415,
+          "heapMB": 10.7,
+          "memory": {
+            "baseline": {
+              "jsMB": 3.6,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 6.2,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 8.9,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 10.7
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 58.1,
+            "avgMs": 17.2,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 17,
+            "p95Ms": 17,
+            "maxMs": 17,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 5000,
+      "label": "JointJS (default)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 2650,
+          "mountBlockingMs": 2619,
+          "domNodes": 79714,
+          "heapMB": 59.8,
+          "memory": {
+            "baseline": {
+              "jsMB": 6.3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 55.1,
+              "domMB": 18.3
+            },
+            "afterScenarios": {
+              "jsMB": 60.4,
+              "domMB": 18.8
+            },
+            "peakHeapMB": 59.7
+          },
+          "pan": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 50,
+            "longFrames": 0,
+            "blockingMs": 15
+          },
+          "zoom": {
+            "fps": 7.9,
+            "avgMs": 126.7,
+            "p95Ms": 150,
+            "maxMs": 150,
+            "longFrames": 58,
+            "blockingMs": 4510
+          },
+          "drag": {
+            "fps": 29.6,
+            "avgMs": 33.7,
+            "p95Ms": 50,
+            "maxMs": 50,
+            "longFrames": 1,
+            "blockingMs": 3
+          },
+          "status": {
+            "medianMs": 2435,
+            "p95Ms": 2633,
+            "maxMs": 2633,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 2637,
+          "mountBlockingMs": 2604,
+          "domNodes": 79714,
+          "heapMB": 60,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 55.2,
+              "domMB": 18.3
+            },
+            "afterScenarios": {
+              "jsMB": 59.8,
+              "domMB": 18.8
+            },
+            "peakHeapMB": 59.9
+          },
+          "pan": {
+            "fps": 58.5,
+            "avgMs": 17.1,
+            "p95Ms": 16.7,
+            "maxMs": 66.7,
+            "longFrames": 1,
+            "blockingMs": 17
+          },
+          "zoom": {
+            "fps": 8.1,
+            "avgMs": 123.1,
+            "p95Ms": 150,
+            "maxMs": 150,
+            "longFrames": 58,
+            "blockingMs": 4300
+          },
+          "drag": {
+            "fps": 30.5,
+            "avgMs": 32.8,
+            "p95Ms": 50,
+            "maxMs": 50,
+            "longFrames": 1,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 2439,
+            "p95Ms": 2610,
+            "maxMs": 2610,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": false,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 2629,
+          "mountBlockingMs": 2597,
+          "domNodes": 79714,
+          "heapMB": 60.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 6.3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 58.3,
+              "domMB": 18.3
+            },
+            "afterScenarios": {
+              "jsMB": 60.4,
+              "domMB": 18.8
+            },
+            "peakHeapMB": 60.4
+          },
+          "pan": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 50,
+            "longFrames": 0,
+            "blockingMs": 13
+          },
+          "zoom": {
+            "fps": 8.1,
+            "avgMs": 123.9,
+            "p95Ms": 150,
+            "maxMs": 150,
+            "longFrames": 58,
+            "blockingMs": 4377
+          },
+          "drag": {
+            "fps": 31.2,
+            "avgMs": 32.1,
+            "p95Ms": 33.3,
+            "maxMs": 50,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 2419,
+            "p95Ms": 2663,
+            "maxMs": 2663,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 5000,
+      "label": "JointJS (optimized)",
+      "runs": [
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 165,
+          "mountBlockingMs": 71,
+          "domNodes": 877,
+          "heapMB": 33.3,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.8,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 29.6,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 32.2,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 34.2
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 45,
+            "avgMs": 22.2,
+            "p95Ms": 50,
+            "maxMs": 83.3,
+            "longFrames": 3,
+            "blockingMs": 44
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 101,
+            "p95Ms": 121,
+            "maxMs": 121,
+            "blockingMs": 1016
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 162,
+          "mountBlockingMs": 71,
+          "domNodes": 877,
+          "heapMB": 33.3,
+          "memory": {
+            "baseline": {
+              "jsMB": 3.5,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 31.9,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 32.2,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 34.2
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 45.6,
+            "avgMs": 21.9,
+            "p95Ms": 50,
+            "maxMs": 66.7,
+            "longFrames": 2,
+            "blockingMs": 34
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 103,
+            "p95Ms": 109,
+            "maxMs": 109,
+            "blockingMs": 1041
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "joint",
+          "optimized": true,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 163,
+          "mountBlockingMs": 71,
+          "domNodes": 877,
+          "heapMB": 33.4,
+          "memory": {
+            "baseline": {
+              "jsMB": 3.2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 30.5,
+              "domMB": 0.3
+            },
+            "afterScenarios": {
+              "jsMB": 33.4,
+              "domMB": 0.4
+            },
+            "peakHeapMB": 34.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 45,
+            "avgMs": 22.2,
+            "p95Ms": 50,
+            "maxMs": 66.7,
+            "longFrames": 2,
+            "blockingMs": 38
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 100,
+            "p95Ms": 107,
+            "maxMs": 107,
+            "blockingMs": 1001
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 5000,
+      "label": "React Flow (default)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 916,
+          "mountBlockingMs": 812,
+          "domNodes": 56285,
+          "heapMB": 147.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 145.8,
+              "domMB": 9.1
+            },
+            "afterScenarios": {
+              "jsMB": 148,
+              "domMB": 9.1
+            },
+            "peakHeapMB": 147.5
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 190,
+            "p95Ms": 235,
+            "maxMs": 235,
+            "blockingMs": 1823
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 928,
+          "mountBlockingMs": 824,
+          "domNodes": 56285,
+          "heapMB": 147.3,
+          "memory": {
+            "baseline": {
+              "jsMB": 3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 145.4,
+              "domMB": 9.1
+            },
+            "afterScenarios": {
+              "jsMB": 144.6,
+              "domMB": 9.1
+            },
+            "peakHeapMB": 147.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 189,
+            "p95Ms": 233,
+            "maxMs": 233,
+            "blockingMs": 1767
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": false,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 910,
+          "mountBlockingMs": 806,
+          "domNodes": 56285,
+          "heapMB": 147.3,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.3,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 145.2,
+              "domMB": 9.1
+            },
+            "afterScenarios": {
+              "jsMB": 145.4,
+              "domMB": 9.1
+            },
+            "peakHeapMB": 147.3
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 187,
+            "p95Ms": 228,
+            "maxMs": 228,
+            "blockingMs": 1728
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    },
+    {
+      "n": 5000,
+      "label": "React Flow (optimized)",
+      "runs": [
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 380,
+          "mountBlockingMs": 276,
+          "domNodes": 415,
+          "heapMB": 14.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2.6,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 13.3,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 11.8,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 14.5
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 58.1,
+            "avgMs": 17.2,
+            "p95Ms": 16.7,
+            "maxMs": 50,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 33,
+            "p95Ms": 35,
+            "maxMs": 35,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 387,
+          "mountBlockingMs": 284,
+          "domNodes": 415,
+          "heapMB": 14.5,
+          "memory": {
+            "baseline": {
+              "jsMB": 2,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 11.7,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 13.6,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 14.5
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 59,
+            "avgMs": 16.9,
+            "p95Ms": 16.7,
+            "maxMs": 33.3,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 33,
+            "p95Ms": 33,
+            "maxMs": 33,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "lib": "rf",
+          "optimized": true,
+          "nodes": 5000,
+          "edges": 6567,
+          "mountMs": 388,
+          "mountBlockingMs": 285,
+          "domNodes": 415,
+          "heapMB": 14.6,
+          "memory": {
+            "baseline": {
+              "jsMB": 3.7,
+              "domMB": 0.1
+            },
+            "afterLoad": {
+              "jsMB": 10,
+              "domMB": 0.2
+            },
+            "afterScenarios": {
+              "jsMB": 11.9,
+              "domMB": 0.2
+            },
+            "peakHeapMB": 14.6
+          },
+          "pan": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "zoom": {
+            "fps": 58.1,
+            "avgMs": 17.2,
+            "p95Ms": 16.7,
+            "maxMs": 50,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "drag": {
+            "fps": 60,
+            "avgMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 16.7,
+            "longFrames": 0,
+            "blockingMs": 0
+          },
+          "status": {
+            "medianMs": 33,
+            "p95Ms": 33,
+            "maxMs": 33,
+            "blockingMs": 0
+          },
+          "visible": true,
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+        }
+      ]
+    }
+  ],
+  "startedAt": "2026-11-20T07:36:26.392Z"
+}

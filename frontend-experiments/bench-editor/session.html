@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor benchmark: realistic session</title>
+    <style>
+      html, body { margin: 0; height: 100%; }
+      #canvas { position: fixed; inset: 0; }
+      #result { position: fixed; right: 0; bottom: 0; max-height: 40vh; overflow: auto; margin: 0; padding: 8px;
+        font: 11px monospace; background: rgba(255, 255, 255, 0.9); z-index: 10; }
+    </style>
+  </head>
+  <body>
+    <div id="canvas"></div>
+    <pre id="result"></pre>
+    <script type="module" src="/src/collab/session.ts"></script>
+  </body>
+</html>
